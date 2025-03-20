@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "@prisma/adapter-neon": "^6.5.0",
+    "@prisma/client": "^6.5.0",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
@@ -23,15 +26,19 @@
     "react-dom": "^18.3.1",
     "sonner": "^1.5.0",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "ws": "^8.18.1"
   },
   "devDependencies": {
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.7",
     "@types/react-dom": "^18.3.0",
+    "@types/ws": "^8.18.0",
+    "bufferutil": "^4.0.9",
     "eslint": "^9.10.0",
     "eslint-config-next": "14.2.11",
     "postcss": "^8.4.47",
+    "prisma": "^6.5.0",
     "tailwindcss": "^3.4.11",
     "typescript": "^5.6.2"
   }
